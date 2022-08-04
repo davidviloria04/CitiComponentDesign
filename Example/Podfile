@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CitiComponentDesign_Example' do
+  pod 'CitiComponentDesign', :path => '../'
+
+  target 'CitiComponentDesign_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

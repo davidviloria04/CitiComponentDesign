@@ -1,0 +1,6 @@
+framework module CitiComponentDesign {
+  umbrella header "CitiComponentDesign-umbrella.h"
+
+  export *
+  module * { export * }
+}

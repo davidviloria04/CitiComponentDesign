@@ -1,0 +1,22 @@
+{
+  "name": "CitiComponentDesign",
+  "version": "0.1.0",
+  "summary": "A short description of CitiComponentDesign.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/David Viloria/CitiComponentDesign",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "David Viloria": "david.viloria@citi.com.mx"
+  },
+  "source": {
+    "git": "https://github.com/David Viloria/CitiComponentDesign.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CitiComponentDesign/Classes/**/*"
+}

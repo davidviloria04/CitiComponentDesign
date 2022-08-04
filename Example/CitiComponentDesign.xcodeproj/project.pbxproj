@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		230CA2F969EADF9095CB07FF /* Pods_CitiComponentDesign_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitiComponentDesign_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48EF3DC0A1F51100420DFC28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		48EF3DC0A1F51100420DFC28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CitiComponentDesign_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiComponentDesign_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* CitiComponentDesign_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiComponentDesign_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B7E1ACB6FD38AC8E311A382 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B7E1ACB6FD38AC8E311A382 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9E2167E76B1870D9E155EFC5 /* Pods-CitiComponentDesign_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiComponentDesign_Example.debug.xcconfig"; path = "Target Support Files/Pods-CitiComponentDesign_Example/Pods-CitiComponentDesign_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A2D2AB573C917307F34B3F43 /* Pods-CitiComponentDesign_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiComponentDesign_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CitiComponentDesign_Tests/Pods-CitiComponentDesign_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6ACBF36D062AC0F25BF492F /* Pods-CitiComponentDesign_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiComponentDesign_Example.release.xcconfig"; path = "Target Support Files/Pods-CitiComponentDesign_Example/Pods-CitiComponentDesign_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B748C366E5E3C2096CD042D7 /* Pods-CitiComponentDesign_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CitiComponentDesign_Tests.release.xcconfig"; path = "Target Support Files/Pods-CitiComponentDesign_Tests/Pods-CitiComponentDesign_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E8702C4A36D8575A2500D648 /* CitiComponentDesign.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CitiComponentDesign.podspec; path = ../CitiComponentDesign.podspec; sourceTree = "<group>"; };
+		E8702C4A36D8575A2500D648 /* CitiComponentDesign.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CitiComponentDesign.podspec; path = ../CitiComponentDesign.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC647A149BBEAA25FFB6DA81 /* Pods_CitiComponentDesign_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CitiComponentDesign_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				A2D2AB573C917307F34B3F43 /* Pods-CitiComponentDesign_Tests.debug.xcconfig */,
 				B748C366E5E3C2096CD042D7 /* Pods-CitiComponentDesign_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -481,7 +481,7 @@
 				INFOPLIST_FILE = CitiComponentDesign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CitiComponentDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -496,7 +496,7 @@
 				INFOPLIST_FILE = CitiComponentDesign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CitiComponentDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

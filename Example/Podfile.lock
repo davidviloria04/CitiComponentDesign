@@ -1,0 +1,16 @@
+PODS:
+  - CitiComponentDesign (0.1.0)
+
+DEPENDENCIES:
+  - CitiComponentDesign (from `../`)
+
+EXTERNAL SOURCES:
+  CitiComponentDesign:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CitiComponentDesign: ee52b68627a7a9e62b512d20816e46c79873935c
+
+PODFILE CHECKSUM: 82bad5c8f8c50a04836b4113eadfd5e19f7636be
+
+COCOAPODS: 1.11.3
